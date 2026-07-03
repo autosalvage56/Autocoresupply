@@ -1,0 +1,202 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-display: "Barlow Condensed", "Impact", sans-serif;
+  --font-heading: "Barlow Condensed", "Impact", sans-serif;
+  --font-body: "Outfit", "Barlow", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Auto-parts brand palette */
+  --color-steel: var(--steel);
+  --color-asphalt: var(--asphalt);
+  --color-chrome: var(--chrome);
+  --color-nitro: var(--nitro);
+  --color-exhaust: var(--exhaust);
+
+  --shadow-editorial: 0 30px 60px -25px oklch(0.1 0 0 / 0.4);
+  --shadow-card: 0 12px 40px -18px oklch(0.1 0 0 / 0.3);
+}
+
+:root {
+  --radius: 6px;
+  /* Industrial auto-parts palette */
+  --steel: oklch(0.25 0.01 250);
+  --asphalt: oklch(0.15 0.005 250);
+  --chrome: oklch(0.75 0.005 250);
+  --nitro: oklch(0.65 0.25 30);         /* vibrant orange-red */
+  --exhaust: oklch(0.45 0.015 250);
+
+  --background: oklch(0.14 0.008 250);   /* dark charcoal */
+  --foreground: oklch(0.93 0.005 250);   /* bright white-grey */
+
+  --card: oklch(0.18 0.008 250);
+  --card-foreground: oklch(0.93 0.005 250);
+  --popover: oklch(0.18 0.008 250);
+  --popover-foreground: oklch(0.93 0.005 250);
+
+  --primary: oklch(0.65 0.25 30);         /* nitro orange-red */
+  --primary-foreground: oklch(0.98 0 0);
+
+  --secondary: oklch(0.22 0.008 250);
+  --secondary-foreground: oklch(0.88 0.005 250);
+  --muted: oklch(0.20 0.006 250);
+  --muted-foreground: oklch(0.60 0.01 250);
+  --accent: oklch(0.55 0.20 45);          /* warm amber */
+  --accent-foreground: oklch(0.12 0.005 250);
+  --destructive: oklch(0.55 0.22 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.28 0.008 250);
+  --input: oklch(0.22 0.008 250);
+  --ring: oklch(0.65 0.25 30);
+}
+
+.dark {
+  --background: oklch(0.10 0.005 250);
+  --foreground: oklch(0.95 0.005 250);
+}
+
+@layer base {
+  * { border-color: var(--color-border); }
+  html, body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-body);
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .font-display { font-family: var(--font-display); }
+  .font-heading { font-family: var(--font-heading); }
+  .font-mono { font-family: var(--font-mono); }
+
+  /* Surface utilities */
+  .bg-steel { background-color: var(--steel); }
+  .bg-asphalt { background-color: var(--asphalt); }
+  .bg-chrome { background-color: var(--chrome); }
+  .text-nitro { color: var(--nitro); }
+  .text-chrome { color: var(--chrome); }
+  .text-exhaust { color: var(--exhaust); }
+  .border-steel { border-color: var(--steel); }
+
+  .rule { height: 1px; background: var(--foreground); opacity: 0.12; }
+  .rule-thick { height: 2px; background: var(--nitro); }
+
+  /* Diagonal stripe pattern — garage / hazard feel */
+  .garage-stripe::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image: repeating-linear-gradient(
+      -45deg,
+      oklch(0.65 0.25 30 / 0.04) 0 2px,
+      transparent 2px 8px
+    );
+    pointer-events: none;
+  }
+
+  /* Metal texture overlay */
+  .metal-grain::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      radial-gradient(at 30% 20%, oklch(0.65 0.25 30 / 0.06) 0%, transparent 50%),
+      radial-gradient(at 70% 80%, oklch(0.55 0.20 45 / 0.05) 0%, transparent 50%),
+      repeating-linear-gradient(90deg, oklch(1 0 0 / 0.01) 0 1px, transparent 1px 3px);
+    pointer-events: none;
+  }
+
+  .editorial-card {
+    transition: transform 350ms cubic-bezier(.2,.7,.2,1), box-shadow 350ms ease, border-color 250ms ease;
+  }
+  .editorial-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 50px -20px oklch(0.65 0.25 30 / 0.25);
+    border-color: var(--nitro);
+  }
+
+  .underline-nitro {
+    background-image: linear-gradient(var(--nitro), var(--nitro));
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 350ms ease;
+  }
+  .underline-nitro:hover { background-size: 100% 2px; }
+
+  .num-badge {
+    font-family: var(--font-display);
+    font-weight: 800;
+    color: var(--nitro);
+  }
+
+  @keyframes ticker {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  .animate-ticker { animation: ticker 30s linear infinite; }
+
+  @keyframes pulse-nitro {
+    0%, 100% { box-shadow: 0 0 0 0 oklch(0.65 0.25 30 / 0.5); }
+    50% { box-shadow: 0 0 0 14px oklch(0.65 0.25 30 / 0); }
+  }
+  .pulse-nitro { animation: pulse-nitro 2s ease-in-out infinite; }
+
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: none; }
+  }
+  .fade-up { animation: fade-up .7s cubic-bezier(.2,.7,.2,1) both; }
+
+  /* Glow accent for headings */
+  .glow-nitro {
+    text-shadow: 0 0 40px oklch(0.65 0.25 30 / 0.3);
+  }
+
+  /* Tag pill */
+  .tag-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 10px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    border-radius: 2px;
+  }
+}
