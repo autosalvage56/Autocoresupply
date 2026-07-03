@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Phone, X } from "lucide-react";
 
 const PHONE_DISPLAY = "(855) 393-1294";
-const PHONE_TEL = "tel:8553931294";
+const PHONE_TEL = "tel:+18553931294";
 
 export function CallNowPopup() {
   const [open, setOpen] = useState(false);

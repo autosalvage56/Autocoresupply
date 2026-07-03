@@ -94,7 +94,7 @@ function About() {
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Button asChild variant="hero" size="lg" className="h-12 px-8">
-              <a href="tel:8553931294"><Phone className="h-4 w-4" /> Talk to a Specialist</a>
+              <a href="tel:+18553931294"><Phone className="h-4 w-4" /> Talk to a Specialist</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="h-12 px-8">
               <a href="/shop">Browse Inventory <ArrowRight className="h-4 w-4" /></a>
@@ -262,7 +262,7 @@ function About() {
           <p className="text-muted-foreground mb-8">Skip the chatbot. Our specialists answer every call and know exactly what's on the floor.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild variant="hero" size="lg" className="h-14 px-10 pulse-nitro">
-              <a href="tel:8553931294"><Phone className="h-5 w-5" /> (855) 393-1294</a>
+              <a href="tel:+18553931294"><Phone className="h-5 w-5" /> (855) 393-1294</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="h-14 px-10">
               <a href="/contact">Send Us a Message <ArrowRight className="h-4 w-4" /></a>

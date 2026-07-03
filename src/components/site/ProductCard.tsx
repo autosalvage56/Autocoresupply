@@ -39,7 +39,7 @@ export function ProductCard({ p, index }: { p: Product; index?: number }) {
               className="h-9 w-9 border border-border rounded flex items-center justify-center hover:bg-nitro hover:text-white hover:border-nitro transition"
               aria-label="Add to cart"
             ><Plus className="h-3.5 w-3.5" /></button>
-            <Button asChild size="sm" variant="hero" className="h-9"><a href="tel:8553931294"><Phone className="h-3.5 w-3.5" /> Call</a></Button>
+            <Button asChild size="sm" variant="hero" className="h-9"><a href="tel:+18553931294"><Phone className="h-3.5 w-3.5" /> Call</a></Button>
           </div>
         </div>
       </div>

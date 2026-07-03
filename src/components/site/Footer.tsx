@@ -18,7 +18,7 @@ export function Footer() {
             </div>
             <p className="text-sm text-muted-foreground mt-4 max-w-md leading-relaxed">A phone-order house for enthusiasts, restorers, and fleet operators. Sixteen years supplying performance parts the internet can't source.</p>
             <div className="mt-6">
-              <a href="tel:8553931294" className="text-nitro font-display text-3xl font-800 tracking-wider hover:text-foreground transition">(855) 393-1294</a>
+              <a href="tel:+18553931294" className="text-nitro font-display text-3xl font-800 tracking-wider hover:text-foreground transition">(855) 393-1294</a>
             </div>
             <div className="flex gap-3 mt-6">
               {[Facebook, Instagram, Youtube].map((Icon, i) => (

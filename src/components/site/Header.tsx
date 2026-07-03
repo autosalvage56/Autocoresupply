@@ -14,7 +14,7 @@ export function Header() {
         <div className="container mx-auto flex items-center justify-between px-4 py-2 font-heading font-600 tracking-[0.15em] uppercase">
           <span className="hidden sm:inline">Est. 2008 · Detroit, Michigan</span>
           <span className="sm:hidden">AutoCore Supply</span>
-          <a href="tel:8553931294" className="flex items-center gap-1.5 text-white hover:text-white/80 transition">
+          <a href="tel:+18553931294" className="flex items-center gap-1.5 text-white hover:text-white/80 transition">
             <Phone className="h-3 w-3" /> (855) 393-1294
           </a>
         </div>
@@ -40,7 +40,7 @@ export function Header() {
         </nav>
         <div className="flex items-center gap-2">
           <Button asChild variant="hero" size="sm" className="hidden md:inline-flex h-9">
-            <a href="tel:8553931294"><Phone className="h-3.5 w-3.5" /> Call Now</a>
+            <a href="tel:+18553931294"><Phone className="h-3.5 w-3.5" /> Call Now</a>
           </Button>
           <button onClick={openCart} className="relative border border-border bg-secondary/50 rounded px-3 h-9 flex items-center gap-2 hover:bg-nitro hover:text-white hover:border-nitro transition text-xs font-heading uppercase tracking-widest font-600">
             <ShoppingCart className="h-3.5 w-3.5" /> Cart

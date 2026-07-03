@@ -83,7 +83,7 @@ function ProductPage() {
                 onClick={() => cartStore.add({ id: p.id, title: p.title, image: p.image, price: p.price, compatibility: p.compatibility })}>
                 <ShoppingCart className="h-4 w-4" /> Add to List
               </Button>
-              <Button asChild variant="hero" size="lg" className="h-12"><a href="tel:8553931294"><Phone className="h-4 w-4" /> Call to Order</a></Button>
+              <Button asChild variant="hero" size="lg" className="h-12"><a href="tel:+18553931294"><Phone className="h-4 w-4" /> Call to Order</a></Button>
             </div>
             <p className="mt-4 text-xs text-muted-foreground italic text-center">No online checkout — our specialists verify your VIN and finalize shipping rates by phone.</p>
           </div>

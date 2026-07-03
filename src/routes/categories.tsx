@@ -148,7 +148,7 @@ function Categories() {
               </button>
             </div>
             <Button asChild variant="hero" size="sm" className="h-9">
-              <a href="tel:8553931294"><Phone className="h-3.5 w-3.5" /> Talk to Specialist</a>
+              <a href="tel:+18553931294"><Phone className="h-3.5 w-3.5" /> Talk to Specialist</a>
             </Button>
           </div>
         </div>
@@ -184,7 +184,7 @@ function Categories() {
                     <div className="flex items-center justify-between mt-3 flex-wrap gap-3">
                       <div className="font-display text-2xl font-800 text-nitro">{p.price}</div>
                       <Button asChild size="sm" variant="hero" className="h-8">
-                        <a href="tel:8553931294"><Phone className="h-3 w-3" /> Order by Phone</a>
+                        <a href="tel:+18553931294"><Phone className="h-3 w-3" /> Order by Phone</a>
                       </Button>
                     </div>
                   </div>

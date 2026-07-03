@@ -27,7 +27,7 @@ export function Hero() {
           </p>
           <div className="mt-10 flex flex-wrap gap-3">
             <Button asChild variant="hero" size="lg" className="h-13 px-8">
-              <a href="tel:8553931294"><Phone className="h-4 w-4" /> Talk to a Specialist</a>
+              <a href="tel:+18553931294"><Phone className="h-4 w-4" /> Talk to a Specialist</a>
             </Button>
             <Button asChild variant="outline" size="lg" className="h-13 px-8">
               <Link to="/shop">Browse All Parts <ArrowRight className="h-4 w-4" /></Link>
