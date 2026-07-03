@@ -11,7 +11,7 @@ export function CategoryGrid() {
             <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
               Shop by Category
             </div>
-            <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+            <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
               Three Departments,{" "}
               <span className="text-nitro">One Call</span>
             </h2>

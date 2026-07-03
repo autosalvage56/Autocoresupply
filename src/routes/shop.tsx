@@ -33,7 +33,7 @@ function Shop() {
           </div>
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             <div>
-              <h1 className="font-display text-6xl md:text-7xl leading-[0.9] tracking-wide font-900 uppercase">
+              <h1 className="font-display text-4xl sm:text-6xl md:text-7xl leading-[0.9] tracking-wide font-900 uppercase">
                 The Full <span className="text-nitro">Floor</span>
               </h1>
               <p className="mt-5 text-muted-foreground leading-relaxed max-w-xl">
@@ -46,14 +46,14 @@ function Shop() {
               </div>
             </div>
             {/* Quick stats */}
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-2 sm:gap-4">
               {[
                 { n: `${products.length}`, l: "Parts Listed" },
                 { n: "3", l: "Departments" },
                 { n: "48h", l: "Avg. Ship Time" },
               ].map(s => (
-                <div key={s.l} className="bg-card border border-border rounded-lg p-4 text-center hover:border-nitro/30 transition-colors">
-                  <div className="font-display text-3xl font-900 text-nitro">{s.n}</div>
+                <div key={s.l} className="bg-card border border-border rounded-lg p-2 sm:p-4 text-center hover:border-nitro/30 transition-colors">
+                  <div className="font-display text-xl sm:text-3xl font-900 text-nitro">{s.n}</div>
                   <div className="text-[10px] font-heading uppercase tracking-[0.15em] text-muted-foreground mt-1 font-500">{s.l}</div>
                 </div>
               ))}

@@ -14,7 +14,7 @@ export function FeaturedProducts() {
             <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
               Featured Stock
             </div>
-            <h2 className="font-display text-5xl md:text-6xl tracking-wide leading-[0.95] font-800">
+            <h2 className="font-display text-3xl sm:text-5xl md:text-6xl tracking-wide leading-[0.95] font-800">
               This Week's <span className="text-nitro">Top Picks</span>
             </h2>
           </div>

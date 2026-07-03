@@ -17,7 +17,7 @@ export function WhyUs() {
             <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
               Why AutoCore Supply
             </div>
-            <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+            <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
               Four Principles{" "}
               <span className="text-nitro">Since 2008</span>
             </h2>

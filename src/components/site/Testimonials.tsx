@@ -13,7 +13,7 @@ export function Testimonials() {
         <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
           Customer Reviews
         </div>
-        <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide max-w-3xl mb-16 font-800">
+        <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide max-w-3xl mb-16 font-800">
           Straight From{" "}
           <span className="text-nitro">The Garage</span>
         </h2>

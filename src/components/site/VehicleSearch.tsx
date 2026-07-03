@@ -15,7 +15,7 @@ export function VehicleSearch() {
               <h3 className="font-display text-3xl leading-tight">Match your <span className="italic">vehicle</span>.</h3>
               <p className="text-sm text-ink/60 mt-3 leading-relaxed">Narrow the floor to parts confirmed for your specific chassis and drivetrain.</p>
             </div>
-            <form className="lg:col-span-9 p-8 grid gap-6 md:grid-cols-5 items-end">
+            <form className="lg:col-span-9 p-8 grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-end">
               <Field label="Year"><select className="select">{[<option key="s">Select</option>, ...years.map(y => <option key={y}>{y}</option>)]}</select></Field>
               <Field label="Make"><select className="select">{[<option key="s">Select</option>, ...makes.map(m => <option key={m}>{m}</option>)]}</select></Field>
               <Field label="Model"><select className="select"><option>Select</option><option>Mustang</option><option>Silverado</option><option>Civic</option></select></Field>

@@ -20,7 +20,7 @@ export function LiveArrivals() {
               <span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse" />
               Live Feed
             </div>
-            <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+            <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
               Recent <span className="text-nitro">Arrivals</span>
             </h2>
             <p className="mt-4 text-muted-foreground max-w-lg">Fresh stock hitting our Detroit floor — inspected, tested, and ready to ship nationwide.</p>

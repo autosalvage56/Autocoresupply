@@ -85,7 +85,7 @@ function About() {
           <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-6">
             <Wrench className="h-3 w-3" /> Est. 2008 · Detroit, MI
           </div>
-          <h1 className="font-display text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-wide font-900 uppercase">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-[0.9] tracking-wide font-900 uppercase">
             Specialists,{" "}
             <span className="text-nitro">Not Order-Takers</span>
           </h1>
@@ -128,7 +128,7 @@ function About() {
               <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
                 Our Story
               </div>
-              <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+              <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
                 Built on the <span className="text-nitro">Detroit Floor</span>
               </h2>
               <div className="mt-6 space-y-4 text-muted-foreground leading-relaxed">
@@ -163,7 +163,7 @@ function About() {
             <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
               <Users className="h-3 w-3" /> The Team
             </div>
-            <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+            <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
               Meet the <span className="text-nitro">Specialists</span>
             </h2>
             <p className="mt-4 text-muted-foreground">Real Detroit floor experts — not customer service reps. Each specialist has spent their career in one discipline.</p>
@@ -194,7 +194,7 @@ function About() {
               <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
                 <FlaskConical className="h-3 w-3" /> Our Testing Lab
               </div>
-              <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+              <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
                 Certified <span className="text-nitro">Before It Ships</span>
               </h2>
             </div>
@@ -223,7 +223,7 @@ function About() {
             <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
               Our History
             </div>
-            <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+            <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
               16 Years <span className="text-nitro">on the Floor</span>
             </h2>
           </div>

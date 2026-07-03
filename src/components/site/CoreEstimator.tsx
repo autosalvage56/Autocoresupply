@@ -22,7 +22,7 @@ export function CoreEstimator() {
             <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
               Core Exchange Program
             </div>
-            <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+            <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
               Get Cash <span className="text-nitro">For Your Core</span>
             </h2>
             <p className="mt-4 text-muted-foreground leading-relaxed max-w-lg">
@@ -41,7 +41,7 @@ export function CoreEstimator() {
             {/* Category selector */}
             <div className="mb-6">
               <label className="block text-[11px] font-heading uppercase tracking-[0.15em] text-muted-foreground mb-2 font-600">Category</label>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                 {Object.keys(coreData).map((cat) => (
                   <button
                     key={cat}

@@ -39,7 +39,7 @@ function Categories() {
           <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-5">
             <Layers className="h-3 w-3" /> Parts Catalogue
           </div>
-          <h1 className="font-display text-6xl md:text-7xl leading-[0.9] tracking-wide font-900 uppercase max-w-3xl">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl leading-[0.9] tracking-wide font-900 uppercase max-w-3xl">
             All <span className="text-nitro">Departments</span>
           </h1>
           <p className="mt-5 text-muted-foreground leading-relaxed max-w-2xl text-lg">
@@ -101,7 +101,7 @@ function Categories() {
                 <Icon className="h-3 w-3" />
                 Department {String(activeIdx + 1).padStart(2, "0")}
               </div>
-              <h2 className="font-display text-5xl md:text-6xl font-900 uppercase text-white tracking-wide">
+              <h2 className="font-display text-3xl sm:text-5xl md:text-6xl font-900 uppercase text-white tracking-wide">
                 {active.name}
               </h2>
               <p className="mt-2 text-white/70 max-w-lg">{active.blurb}</p>

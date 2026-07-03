@@ -15,7 +15,7 @@ export function CtaBanner() {
           <div className="inline-flex items-center gap-2 tag-pill bg-nitro/20 text-nitro border border-nitro/30 mb-6">
             Ready to Order
           </div>
-          <h2 className="font-display text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
+          <h2 className="font-display text-3xl sm:text-5xl md:text-6xl leading-[0.95] tracking-wide font-800">
             Call the Floor{" "}
             <span className="text-nitro">Today</span>
           </h2>

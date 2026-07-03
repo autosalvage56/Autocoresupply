@@ -18,7 +18,7 @@ export function Hero() {
             <span className="h-1.5 w-1.5 rounded-full bg-nitro animate-pulse" />
             Now Shipping Nationwide
           </div>
-          <h1 className="font-display text-5xl md:text-6xl lg:text-7xl leading-[0.95] tracking-wide font-900 uppercase glow-nitro">
+          <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl leading-[0.95] tracking-wide font-900 uppercase glow-nitro">
             Performance Parts{" "}
             <span className="text-nitro">Built to Last</span>
           </h1>
@@ -35,13 +35,13 @@ export function Hero() {
           </div>
         </div>
         {/* Stats strip */}
-        <div className="mt-16 grid grid-cols-3 gap-6 max-w-2xl">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-6 max-w-2xl">
           {[
             { icon: Shield, n: "16+", l: "Years in business" },
             { icon: Truck, n: "40k+", l: "Parts shipped" },
             { icon: Headset, n: "48h", l: "Avg. delivery" },
           ].map((s) => (
-            <div key={s.l} className="flex items-center gap-3 bg-card/50 backdrop-blur rounded-lg p-4 border border-border/50">
+            <div key={s.l} className="flex items-center gap-3 bg-card/50 backdrop-blur rounded-lg p-3 sm:p-4 border border-border/50">
               <div className="h-10 w-10 rounded bg-nitro/15 flex items-center justify-center flex-shrink-0">
                 <s.icon className="h-5 w-5 text-nitro" />
               </div>

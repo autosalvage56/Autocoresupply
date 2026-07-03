@@ -19,7 +19,7 @@ function Contact() {
           <div className="inline-flex items-center gap-2 tag-pill bg-nitro/15 text-nitro border border-nitro/30 mb-4">
             Correspondence
           </div>
-          <h1 className="font-display text-6xl md:text-7xl leading-[0.9] tracking-wide font-900 uppercase">
+          <h1 className="font-display text-4xl sm:text-6xl md:text-7xl leading-[0.9] tracking-wide font-900 uppercase">
             Ring <span className="text-nitro">The Desk</span>
           </h1>
           <p className="text-muted-foreground mt-4 max-w-2xl leading-relaxed text-lg">Real specialists on a real Detroit floor. Sourced, verified, and shipped under load warranty.</p>
