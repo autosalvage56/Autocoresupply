@@ -30,7 +30,7 @@ export function CoreEstimator() {
             </p>
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <Button asChild variant="hero" size="lg" className="h-12 px-8">
-                <a href="tel:xxx-xxx-xxxx">Get Exact Quote <ChevronRight className="h-4 w-4" /></a>
+                <a href="tel:8553931294">Get Exact Quote <ChevronRight className="h-4 w-4" /></a>
               </Button>
             </div>
           </div>

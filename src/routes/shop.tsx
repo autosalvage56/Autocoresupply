@@ -142,7 +142,7 @@ function Shop() {
                     <div className="flex items-center justify-between mt-3 flex-wrap gap-3">
                       <div className="font-display text-2xl font-800 text-nitro">{p.price}</div>
                       <Button asChild size="sm" variant="hero" className="h-8">
-                        <a href="tel:xxx-xxx-xxxx"><Phone className="h-3 w-3" /> Order by Phone</a>
+                        <a href="tel:8553931294"><Phone className="h-3 w-3" /> Order by Phone</a>
                       </Button>
                     </div>
                   </div>
@@ -159,7 +159,7 @@ function Shop() {
           <h3 className="font-display text-3xl font-800 uppercase mb-3">Can't Find What You Need?</h3>
           <p className="text-muted-foreground mb-6">Our specialists can source discontinued, JDM, and hard-to-find parts. Give us a call — if it exists, we'll find it.</p>
           <Button asChild variant="hero" size="lg" className="h-12 px-8">
-            <a href="tel:xxx-xxx-xxxx"><Phone className="h-4 w-4" /> Call a Specialist</a>
+            <a href="tel:8553931294"><Phone className="h-4 w-4" /> Call a Specialist</a>
           </Button>
         </div>
       </section>

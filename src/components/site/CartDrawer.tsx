@@ -63,7 +63,7 @@ export function CartDrawer() {
               <p className="text-muted-foreground text-xs leading-relaxed">Your selected parts are held. Speak with a specialist to verify fitment, finalize pricing, and arrange shipping.</p>
             </div>
             <div className="grid grid-cols-2 gap-2">
-              <Button asChild variant="hero" size="lg"><a href="tel:xxx-xxx-xxxx"><Phone className="h-4 w-4" /> Call Now</a></Button>
+              <Button asChild variant="hero" size="lg"><a href="tel:8553931294"><Phone className="h-4 w-4" /> Call Now</a></Button>
               <Button asChild variant="outline" size="lg"><a href="/contact"><PhoneCall className="h-4 w-4" /> Request Callback</a></Button>
             </div>
           </div>

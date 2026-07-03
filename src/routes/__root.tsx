@@ -9,6 +9,7 @@ import {
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { CartDrawer } from "@/components/site/CartDrawer";
+import { CallNowPopup } from "@/components/site/CallNowPopup";
 
 function NotFoundComponent() {
   return (
@@ -85,6 +86,7 @@ function RootComponent() {
         </main>
         <Footer />
         <CartDrawer />
+        <CallNowPopup />
       </div>
     </QueryClientProvider>
   );

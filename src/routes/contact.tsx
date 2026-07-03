@@ -28,8 +28,8 @@ function Contact() {
         <div className="grid lg:grid-cols-5 gap-10">
           <div className="lg:col-span-2 space-y-6">
             {[
-              { i: Phone, t: "Telephone", v: "xxx-xxx-xxxx", h: "tel:xxx-xxx-xxxx" },
-              { i: MessageCircle, t: "WhatsApp Direct", v: "xxx-xxx-xxxx", h: "#" },
+              { i: Phone, t: "Telephone", v: "(855) 393-1294", h: "tel:8553931294" },
+              { i: MessageCircle, t: "WhatsApp Direct", v: "(855) 393-1294", h: "#" },
               { i: Mail, t: "Parts Sourcing Desk", v: "parts@autocoresupply.com", h: "mailto:parts@autocoresupply.com" },
               { i: MapPin, t: "Detroit Floor", v: "4400 Industrial Pkwy, Detroit, MI 48201" },
               { i: Clock, t: "Floor Hours", v: "Mon–Sat 8a–7p EST · Sun Closed" },

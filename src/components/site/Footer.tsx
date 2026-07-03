@@ -18,7 +18,7 @@ export function Footer() {
             </div>
             <p className="text-sm text-muted-foreground mt-4 max-w-md leading-relaxed">A phone-order house for enthusiasts, restorers, and fleet operators. Sixteen years supplying performance parts the internet can't source.</p>
             <div className="mt-6">
-              <a href="tel:xxx-xxx-xxxx" className="text-nitro font-display text-3xl font-800 tracking-wider hover:text-foreground transition">xxx-xxx-xxxx</a>
+              <a href="tel:8553931294" className="text-nitro font-display text-3xl font-800 tracking-wider hover:text-foreground transition">(855) 393-1294</a>
             </div>
             <div className="flex gap-3 mt-6">
               {[Facebook, Instagram, Youtube].map((Icon, i) => (
@@ -46,7 +46,7 @@ export function Footer() {
           <div className="lg:col-span-3">
             <h4 className="font-heading uppercase text-[10px] tracking-[0.2em] text-muted-foreground mb-5 font-600">Get in Touch</h4>
             <ul className="space-y-3 text-sm">
-              <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 text-nitro" /> xxx-xxx-xxxx</li>
+              <li className="flex items-start gap-2"><Phone className="h-4 w-4 mt-0.5 text-nitro" /> (855) 393-1294</li>
               <li className="flex items-start gap-2"><Mail className="h-4 w-4 mt-0.5 text-nitro" /> parts@autocoresupply.com</li>
               <li className="flex items-start gap-2"><MapPin className="h-4 w-4 mt-0.5 text-nitro" /> 4400 Industrial Pkwy<br/>Detroit, Michigan 48201</li>
             </ul>
